@@ -1,0 +1,15 @@
+com\project\controllers\RecipeController.class
+com\project\dao\RecipeDAO.class
+com\project\config\RecipeSecurityConfiguration.class
+com\project\dao\RecipeDAOAbst.class
+com\project\model\Recipe.class
+com\project\service\ReceipeServiceAbst.class
+com\project\model\User.class
+com\project\config\HibernateConfig.class
+com\project\dao\UserDAOAbst.class
+com\project\dao\UserDAO.class
+com\project\service\UserServiceAbst.class
+com\project\service\UserService.class
+com\project\SpringBootReceipeApplication.class
+com\project\service\ReceipeService.class
+com\project\main\SpringHibernateMain.class

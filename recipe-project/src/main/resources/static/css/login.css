@@ -1,0 +1,84 @@
+body {
+	background: rgb(253, 253, 253) ;	
+}
+.wrapper {	
+	width:500px;
+	margin-top:120px;
+ 	margin-bottom: 80px;
+ 	margin-left:150px;
+ 	float:left;
+}
+
+.form-signin {
+	max-width: 380px;
+	padding: 15px 35px 45px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.1);  
+}
+.form-signin-heading{
+	font-size:25px;
+	font-family:"Lato";
+}
+.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+}
+
+input[type="text"] {
+	width: 70%;
+	font-family:"Lato";
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="text"]::placeholder{
+	color:rgb(166, 166, 166);
+}
+input[type="password"] {
+	font-family:"Lato";
+	width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;	
+}
+input[type="password"]::placeholder{
+	color:rgb(166, 166, 166)
+}
+.login-button{
+	width:40%;
+	height:15%;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-top:10%;
+	margin-left:27%;
+	background:RGB(0, 115, 177);
+	color:white;
+	font-size:19px;
+	border-radius:2%;
+	border-color:rgb(77, 121, 255);
+}
+.login-button:hover{
+	cursor:pointer;
+}
+.img-homer{
+	float:left;
+}
+.homer{
+	margin-left:160px;
+	margin-top:150px;
+}
+.vertical-line{
+	float:left;
+	width:1px;
+	height:470px;
+	margin-top:60px;
+	margin-left:110px;
+	border-left: solid 1.3px rgb(135, 135, 135);
+}

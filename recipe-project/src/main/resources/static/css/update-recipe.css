@@ -1,0 +1,59 @@
+.chooseUpdateHeader{
+	margin-left:450px;
+	margin-top:40px;
+	font-family:"Lato";
+	font-size:30px;
+}
+.updateHeader{
+	margin-top:-37px;
+	font-family:"Lato";
+	font-size:30px;
+}
+.update-recipe-div{
+	margin-left:300px;
+	margin-top:60px;
+}
+.recipe{
+	border:solid 0.05px rgb(216,216,216);
+	background:white;
+	width:600px;
+	height:380px;
+	margin-top:45px;
+	padding-left:33px;
+	padding-top:20px;
+}
+input{
+	width:80%;
+    padding: 12px 20px;
+    margin-left:5px;
+    margin-top:-5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;	
+    background:rgb(253, 253, 253);
+}
+.recipe-title{
+	font-family:"Lato";
+}
+.recipe-ingredients{
+	font-family:"Lato";
+}
+.recipe-steps{
+	font-family:"Lato";
+}
+.updateButton{
+	width:28%;
+	height:50px;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-top:3.5%;
+	margin-left:30%;
+	background:RGB(0, 115, 177);
+	color:white;
+	font-size:18px;
+	border-radius:2%;
+	border-color:rgb(77, 121, 255);
+}
+.updateButton:hover{
+	cursor:pointer;
+}

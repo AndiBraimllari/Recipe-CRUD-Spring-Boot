@@ -1,0 +1,43 @@
+h2{
+	margin-left:450px;
+	margin-top:40px;
+	font-family:"Lato";
+	font-size:30px;
+}
+.getRecipeHeader{
+	margin-left:300px;
+	margin-top:26px;
+	font-family:"Lato";
+	font-size:30px;
+}
+.recipe{
+	width:600px;
+	height:auto;
+	max-height:500px;
+	border:solid 0.05px rgb(216,216,216);
+	background:white;
+	margin-left:300px;
+	margin-top:42px;
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:15px;
+	padding-bottom:20px;
+}
+.recipe-title{
+	margin-top:-15px;
+	font-size:35px;
+	font-family: 'Karla', sans-serif;
+}
+.recipe-ingredients{
+	font-family: 'Karla', sans-serif;
+}
+.recipe-steps{
+	height:auto;
+	max-height:280px;
+	display:block;
+	font-family: 'Karla', sans-serif;
+}
+label{
+	
+	font-family:"Lato";
+}

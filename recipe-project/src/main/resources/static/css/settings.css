@@ -1,0 +1,49 @@
+body{
+	background: rgb(253, 253, 253);
+}
+h2{
+	margin-left:300px;
+	margin-bottom:43px;
+	font-family:"Lato";
+	font-size:30px;
+}
+.updateUser{
+	margin-left:300px;
+	border:solid 0.05px rgb(216,216,216);
+	background:white;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:8px;
+	width:700px;
+	display:block;
+}
+.updateUser form{
+	margin-left:40px;
+	margin-top:13px;
+}
+form div{
+	font-family:"Lato";
+}
+input[type="submit"]{
+	width:22%;
+	height:7%;
+	padding-top:2%;
+	padding-bottom:5%;
+	margin-top:6%;
+	margin-left:33%;
+	margin-bottom:20px;
+	background:RGB(0, 115, 177);
+	color:white;
+	font-size:19px;
+	border-radius:2%;
+	border-color:rgb(77, 121, 255);
+}
+input{
+	width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;	
+    background:rgb(253, 253, 253);
+}

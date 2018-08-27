@@ -1,0 +1,36 @@
+--queries used in MySQL
+
+--DROP TABLE IF EXISTS users;
+--DROP TABLE IF EXISTS authorities;
+--DROP TABLE IF EXISTS recipes;
+--
+--CREATE TABLE recipes(
+--ID int8 PRIMARY KEY NOT NULL AUTO_INCREMENT,
+--title VARCHAR(100) NOT NULL,
+--ingredients LONGTEXT,
+--steps LONGTEXT,
+--accessibility VARCHAR(30) DEFAULT "public",
+--creation_date DATETIME NOT NULL DEFAULT NOW()
+--);
+--
+--CREATE TABLE users (
+--username VARCHAR(50) NOT NULL PRIMARY KEY DEFAULT "filan fisteku",
+--password VARCHAR(120) NOT NULL DEFAULT "filan fisteku",
+--enabled BOOLEAN NOT NULL DEFAULT true
+--dish VARCHAR(100),
+--address VARCHAR(100)		
+--);
+--
+--CREATE TABLE authorities (
+--username VARCHAR(50) NOT NULL DEFAULT "filan fisteku",
+--authority VARCHAR(50) NOT NULL DEFAULT "ROLE_USER",
+--FOREIGN KEY (username) REFERENCES users (username)
+--);
+--
+--INSERT INTO users(username, password, enabled) VALUES('andi','andi',true);
+--
+--INSERT INTO authorities(username, authority) VALUES('andi','ROLE_ADMIN');
+-- 
+--INSERT INTO users(username, password, enabled) VALUES('user','user',true);
+--
+--INSERT INTO authorities(username,authority) VALUES('user','ROLE_USER');

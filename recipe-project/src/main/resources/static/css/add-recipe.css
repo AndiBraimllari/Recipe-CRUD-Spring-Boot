@@ -1,0 +1,83 @@
+body{
+	background:rgb(253, 253, 253);
+	height:800px;
+}
+h2{
+	margin-left:300px;
+	font-family:"Lato";
+	font-size:30px;
+}
+.addRecipe{
+	margin-left:300px;
+	border:solid 0.05px rgb(216,216,216);
+	background:white;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:19px;
+	width:700px;
+	display:block;
+}
+.addRecipe form{
+	margin-left:40px;
+}
+.addIDdiv{
+	font-family:"Lato";
+}
+
+.IDNote{
+	color:RGB(88, 96, 105);
+	font-size:13px;
+}
+.addTitlediv{
+	font-family:"Lato";
+}
+.addIngdiv{
+	font-family:"Lato";
+}
+.addStepsdiv{
+	font-family:"Lato";
+}
+input{
+	width:70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;	
+    background:rgb(253, 253, 253);
+}
+.hrAddRecipe{
+	border:solid 0.4px rgb(195, 195, 195);
+	width:708px;
+	margin-left:-45px;
+}
+input[type="checkbox"]{
+	margin-left:-223px;
+}
+label{
+	margin-left:-220px;
+	font-family:"Lato";
+}
+.privateNote{
+	color:RGB(88, 96, 105);
+	font-size:13px;
+}
+.privateCheckBox{
+	margin-left:500px;
+}
+input[type="submit"]{
+	width:24%;
+	height:43px;
+	padding-top:1.5%;
+	padding-bottom:2%;
+	margin-top:8%;
+	margin-left:33%;
+	background:RGB(0, 115, 177);
+	color:white;
+	font-size:19px;
+	border-radius:2%;
+	border-color:rgb(77, 121, 255);
+}
+input[type="submit"]:hover{
+	cursor:pointer;
+}

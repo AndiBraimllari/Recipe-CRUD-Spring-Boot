@@ -1,0 +1,90 @@
+body{	
+	background: RGB(253, 253, 253);
+}
+.welcome-recipes{
+	width:500px;
+	float:left;
+}
+.welcome-recipes h2{
+	margin-left:40px;
+	font-size:39px;
+	font-family:"Lato";
+}
+.recipe{
+	border:solid 0.05px rgb(216,216,216);
+	background:white;
+	width:700px;
+	height:auto;
+	max-height:600px;
+	display:block;
+	padding-right:10px;
+}
+.recipe-title{
+	font-size:35px;
+	margin-left:14px;
+	margin-top:5px;
+	font-family: 'Karla', sans-serif;
+}
+.recipe-ingredients{
+	margin-left:2%;
+	font-family: 'Karla', sans-serif;
+}
+.recipe-steps{
+	height:auto;
+	margin-left:2%;
+	max-height:280px;
+	display:block;
+	font-family: 'Karla', sans-serif;
+}
+label{
+	font-family:"Lato";
+}
+.editDelete{
+	width:20px;
+	height:50px;
+}
+.editRecipe{
+	margin-left:10xp;
+	float:left;
+}
+.editImg{
+	margin-top:-2%;
+	margin-left:210px;
+	max-width:50px !important;
+	max-height:50px !important;
+}
+.editImg:hover{
+	cursor:pointer;
+}
+.delete-recipe{
+	float:left;
+	width:100px;
+	margin-left:420px;
+	height:10px;
+}
+.trash-can{
+	margin-top:-43px;
+	width:37px;
+	height:36px;
+}
+.trash-can:hover{
+	cursor:pointer;
+}
+.welcome-vertical-line{
+	float:left;
+	width:1px;
+	height:1170px;
+	margin-top:60px;
+	margin-left:360px;
+	border-left: solid 1.3px rgb(135, 135, 135);
+}
+.welcome-homer{
+	float:left;
+	margin-left:120px;
+	margin-top:120px;
+}
+.recipe-horizontal-line{
+	margin-top:40px;
+	width:85%;
+	border:solid 1px rgb(135, 135, 135);
+}
